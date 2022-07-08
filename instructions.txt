@@ -1,0 +1,15 @@
+Create database name : studentsdb
+
+create table : 
+
+CREATE TABLE students (
+    id INT(6) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(191) NOT NULL,
+    email VARCHAR(191) NOT NULL,
+    phone VARCHAR(191) NOT NULL,
+    college VARCHAR(191) NOT NULL,
+  user_name VARCHAR(191) NOT NULL,
+  password VARCHAR(191) NOT NULL
+)
+Put this folderin htdocs of your xampp folder :
+run on : localhoost/Qnox/
